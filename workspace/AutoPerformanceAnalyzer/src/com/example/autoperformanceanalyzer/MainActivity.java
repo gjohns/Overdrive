@@ -24,6 +24,7 @@ public class MainActivity extends Activity {
     
     /** Called when the user clicks the Send button */
     public void sendMode(View view) {
+    	// brendon's addition!
         // Do something in response to button
     	Intent intent = new Intent(this, DisplayModeActivity.class);
     	//EditText editText = (EditText) findViewById(R.id.History);
