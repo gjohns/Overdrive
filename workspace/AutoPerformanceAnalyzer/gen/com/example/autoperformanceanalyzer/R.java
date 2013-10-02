@@ -37,8 +37,8 @@ public final class R {
         public static final int DTC2=0x7f090001;
         public static final int DTC3=0x7f090002;
         public static final int History=0x7f090011;
-        public static final int Make=0x7f09000e;
-        public static final int Model=0x7f09000f;
+        public static final int Make=0x7f09000f;
+        public static final int Model=0x7f09000e;
         public static final int Monitor=0x7f090009;
         public static final int Next=0x7f09000d;
         public static final int Run=0x7f090018;
@@ -63,6 +63,7 @@ public final class R {
         public static final int activity_history=0x7f030003;
         public static final int activity_main=0x7f030004;
         public static final int activity_run=0x7f030005;
+        public static final int activity_test=0x7f030006;
     }
     public static final class menu {
         public static final int check_error=0x7f080000;
@@ -71,6 +72,7 @@ public final class R {
         public static final int history=0x7f080003;
         public static final int main=0x7f080004;
         public static final int run=0x7f080005;
+        public static final int test=0x7f080006;
     }
     public static final class string {
         public static final int Back=0x7f050009;
@@ -100,6 +102,7 @@ public final class R {
         public static final int title_activity_display_mode=0x7f050018;
         public static final int title_activity_history=0x7f05001c;
         public static final int title_activity_run=0x7f050019;
+        public static final int title_activity_test=0x7f05001d;
         public static final int voltage=0x7f050015;
         public static final int yes=0x7f05000e;
     }

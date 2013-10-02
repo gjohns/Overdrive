@@ -58,8 +58,7 @@
         android:layout_below="@+id/voltage"
         android:layout_marginTop="62dp"
         android:layout_toLeftOf="@+id/voltage"
-        android:text="@string/Back" 
-        android:onClick="returnDisplay" />
+        android:text="@string/Back"  />
 
     <Button
         android:id="@+id/Run"

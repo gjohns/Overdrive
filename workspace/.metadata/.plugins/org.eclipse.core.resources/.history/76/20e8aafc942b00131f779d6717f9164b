@@ -51,7 +51,6 @@
         android:layout_alignBaseline="@+id/back2"
         android:layout_alignBottom="@+id/back2"
         android:layout_toRightOf="@+id/run2"
-        android:text="@string/Next" 
-        android:onClick="returnTest"/>
+        android:text="@string/Next" />
 
 </RelativeLayout>

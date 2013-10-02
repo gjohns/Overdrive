@@ -28,5 +28,13 @@ public class CheckError extends Activity {
 	    	//intent.putExtra(EXTRA_MESSAGE, message);
 	    	startActivity(intent);
 	    }
-
+	 public void returnDisplayMode(View view) {
+	        // Do something in response to button
+	    	Intent intent = new Intent(this, DisplayModeActivity.class);
+	    	//EditText editText = (EditText) findViewById(R.id.History);
+	    	//String message = editText.getText().toString();
+	    	//intent.putExtra(EXTRA_MESSAGE, message);
+	    	startActivity(intent);
+	    }
+	 
 }

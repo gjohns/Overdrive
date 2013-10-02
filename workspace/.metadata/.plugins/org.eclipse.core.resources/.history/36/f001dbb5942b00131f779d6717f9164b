@@ -50,6 +50,5 @@
     <string name="title_activity_check_error">CheckError</string>
     <string name="title_activity_clear_code">ClearCode</string>
     <string name="title_activity_history">History</string>
-    <string name="title_activity_test">Test</string>
 
 </resources>

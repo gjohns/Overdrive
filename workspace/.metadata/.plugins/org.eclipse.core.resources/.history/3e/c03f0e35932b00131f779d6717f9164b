@@ -6,52 +6,53 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".History" >
+    tools:context=".MainActivity" >
 
-    <TextView
-        android:id="@+id/textView1"
+    <Spinner
+        android:id="@+id/Model"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="63dp"
-        android:text="@string/pRuns" />
+        android:layout_marginTop="22dp"
+        android:entries="@array/Model" />
 
-    <Button
-        android:id="@+id/run1"
+    <Spinner
+        android:id="@+id/Make"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
-        android:text="@string/Run1" />
+        android:layout_alignLeft="@+id/Model"
+        android:layout_below="@+id/Model"
+        android:layout_marginTop="21dp"
+        android:entries="@array/Make" />
 
-    <Button
-        android:id="@+id/run2"
+    <Spinner
+        android:id="@+id/Year"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/run1"
-        android:layout_below="@+id/run1"
+        android:layout_alignLeft="@+id/Make"
+        android:layout_below="@+id/Make"
         android:layout_marginTop="24dp"
-        android:text="@string/Run2" />
+        android:entries="@array/Year" />
 
     <Button
-        android:id="@+id/back2"
+        android:id="@+id/History"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="19dp"
-        android:layout_toLeftOf="@+id/run2"
-        android:text="@string/Back" />
+        android:layout_alignRight="@+id/Year"
+        android:layout_below="@+id/Year"
+        android:layout_marginTop="29dp"
+        android:onClick="sendHistory"
+        android:text="@string/History" />
 
     <Button
         android:id="@+id/Next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/back2"
-        android:layout_alignBottom="@+id/back2"
-        android:layout_toRightOf="@+id/run2"
-        android:text="@string/Next" 
-        android:onClick="returnTest"/>
+        android:layout_alignBaseline="@+id/History"
+        android:layout_alignBottom="@+id/History"
+        android:layout_alignLeft="@+id/Year"
+        android:onClick="sendMode"
+        android:text="@string/Next" />
 
 </RelativeLayout>

@@ -42,10 +42,6 @@
             android:name="com.example.autoperformanceanalyzer.History"
             android:label="@string/title_activity_history" >
         </activity>
-        <activity
-            android:name="com.example.autoperformanceanalyzer.Test"
-            android:label="@string/title_activity_test" >
-        </activity>
     </application>
 
 </manifest>
