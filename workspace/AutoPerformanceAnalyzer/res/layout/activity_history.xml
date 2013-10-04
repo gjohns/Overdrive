@@ -42,16 +42,16 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="19dp"
         android:layout_toLeftOf="@+id/run2"
-        android:text="@string/Back" />
+        android:text="@string/Back"
+        android:onClick="returnMain" />
 
     <Button
-        android:id="@+id/Next"
+        android:id="@+id/Display"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/back2"
         android:layout_alignBottom="@+id/back2"
-        android:layout_toRightOf="@+id/run2"
-        android:text="@string/Next" 
-        android:onClick="returnTest"/>
+        android:layout_toRightOf="@+id/textView1"
+        android:onClick="sendTest"
+        android:text="@string/Display" />
 
 </RelativeLayout>

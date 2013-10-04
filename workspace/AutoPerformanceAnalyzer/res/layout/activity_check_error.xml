@@ -15,7 +15,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
-        android:text="@string/DTC1" />
+        android:text="@string/DTC1" 
+        android:onClick="sendShowError"/>
 
     <Button
         android:id="@+id/DTC2"
@@ -24,7 +25,8 @@
         android:layout_alignLeft="@+id/DTC1"
         android:layout_below="@+id/DTC1"
         android:layout_marginTop="28dp"
-        android:text="@string/DTC2" />
+        android:text="@string/DTC2" 
+        android:onClick="sendShowError"/>
 
     <Button
         android:id="@+id/DTC3"
@@ -33,7 +35,8 @@
         android:layout_alignRight="@+id/DTC2"
         android:layout_below="@+id/DTC2"
         android:layout_marginTop="38dp"
-        android:text="@string/DTC3" />
+        android:text="@string/DTC3" 
+        android:onClick="sendShowError"/>
 
     <Button
         android:id="@+id/Back1"

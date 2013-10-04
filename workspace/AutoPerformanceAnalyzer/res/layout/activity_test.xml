@@ -9,8 +9,73 @@
     tools:context=".Test" >
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:text="@string/Primary" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="114dp"
+        android:text="@string/Secondary" />
+
+    <CheckBox
+        android:id="@+id/tirePressure1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/RPMS2"
+        android:layout_centerVertical="true"
+        android:text="@string/tirePressure" />
+
+    <Button
+        android:id="@+id/Back3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="37dp"
+        android:layout_toLeftOf="@+id/RPMS2"
+        android:text="@string/Back"
+        android:onClick="returnHistory" />
+
+    <Button
+        android:id="@+id/Next3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Back3"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="@string/Next" 
+        android:onClick="sendGraph"/>
+
+    <CheckBox
+        android:id="@+id/oilPressure1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tirePressure1"
+        android:layout_below="@+id/tirePressure1"
+        android:layout_marginTop="17dp"
+        android:text="@string/oilPressure" />
+
+    <CheckBox
+        android:id="@+id/RPMS2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/MPH1"
+        android:text="@string/rpms" />
+
+    <CheckBox
+        android:id="@+id/MPH1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/RPMS2"
+        android:layout_below="@+id/textView1"
+        android:text="@string/mph" />
 
 </RelativeLayout>

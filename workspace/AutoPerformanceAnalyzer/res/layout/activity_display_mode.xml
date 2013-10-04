@@ -28,4 +28,14 @@
         android:text="@string/Monitor" 
         android:onClick="sendRun"/>
 
+    <Button
+        android:id="@+id/Back3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:layout_toLeftOf="@+id/CheckErrors"
+       android:text="@string/Back" 
+        android:onClick="sendMain"/>
+
 </RelativeLayout>

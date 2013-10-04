@@ -36,21 +36,22 @@
         android:entries="@array/Year" />
 
     <Button
-        android:id="@+id/Next"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:onClick="sendMode"
-        android:text="@string/Next" />
-
-    <Button
-        android:id="@+id/History"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/Year"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
         android:onClick="sendHistory"
         android:text="@string/History" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:onClick="sendMode"
+        android:text="@string/Next"/>
 
 </RelativeLayout>

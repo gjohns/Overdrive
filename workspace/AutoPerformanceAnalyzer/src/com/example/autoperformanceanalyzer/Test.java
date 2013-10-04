@@ -2,7 +2,9 @@ package com.example.autoperformanceanalyzer;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
+import android.view.View;
 
 public class Test extends Activity {
 
@@ -18,5 +20,21 @@ public class Test extends Activity {
 		getMenuInflater().inflate(R.menu.test, menu);
 		return true;
 	}
+	public void returnHistory(View view) {
+        // Do something in response to button
+    	Intent intent = new Intent(this, History.class);
+    	//EditText editText = (EditText) findViewById(R.id.History);
+    	//String message = editText.getText().toString();
+    	//intent.putExtra(EXTRA_MESSAGE, message);
+    	startActivity(intent);
+    }
+	public void sendGraph(View view) {
+        // Do something in response to button
+    	Intent intent = new Intent(this, DisplayGraph.class);
+    	//EditText editText = (EditText) findViewById(R.id.History);
+    	//String message = editText.getText().toString();
+    	//intent.putExtra(EXTRA_MESSAGE, message);
+    	startActivity(intent);
+    }
 
 }

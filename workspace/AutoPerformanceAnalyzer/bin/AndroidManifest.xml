@@ -46,6 +46,14 @@
             android:name="com.example.autoperformanceanalyzer.Test"
             android:label="@string/title_activity_test" >
         </activity>
+        <activity
+            android:name="com.example.autoperformanceanalyzer.DisplayGraph"
+            android:label="@string/title_activity_display_graph" >
+        </activity>
+        <activity
+            android:name="com.example.autoperformanceanalyzer.ShowError"
+            android:label="@string/title_activity_show_error" >
+        </activity>
     </application>
 
 </manifest>
