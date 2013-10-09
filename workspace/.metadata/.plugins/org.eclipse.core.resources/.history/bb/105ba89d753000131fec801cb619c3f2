@@ -25,7 +25,7 @@
     <string name="clearAll">Clear all DTC Error Codes?</string>
     <string name="voltage">Battery Voltage</string>
     <string name="tirePressure">Tire Pressure</string>
-    <string name="oilPressure">Oil Pressuring</string>
+    <string name="oilPressure">Oil Pressure</string>
     <string name="Primary">Primary</string>
     <string name="Secondary">Secondary</string>
     <string name="graph">Can I get a graph here</string>

@@ -48,8 +48,8 @@ public final class R {
         public static final int Year=0x7f090011;
         public static final int action_settings=0x7f090023;
         public static final int back2=0x7f09000d;
-        public static final int button1=0x7f090012;
-        public static final int button2=0x7f090013;
+        public static final int button1=0x7f090013;
+        public static final int button2=0x7f090012;
         public static final int mph=0x7f090017;
         public static final int no=0x7f090007;
         public static final int oilPressure=0x7f090014;
