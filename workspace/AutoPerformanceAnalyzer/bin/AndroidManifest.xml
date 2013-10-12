@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.autoperformanceanalyzer.DisplayModeActivity"
+            android:name="com.example.autoperformanceanalyzer.gui.DisplayModeActivity"
             android:label="@string/title_activity_display_mode" >
         </activity>
         <activity
@@ -31,15 +31,15 @@
             android:label="@string/title_activity_run" >
         </activity>
         <activity
-            android:name="com.example.autoperformanceanalyzer.CheckError"
+            android:name="com.example.autoperformanceanalyzer.gui.CheckErroreckError"
             android:label="@string/title_activity_check_error" >
         </activity>
         <activity
-            android:name="com.example.autoperformanceanalyzer.ClearCode"
+          	android:name="com.example.autoperformanceanalyzer.gui.ClearCode"
             android:label="@string/title_activity_clear_code" >
         </activity>
         <activity
-            android:name="com.example.autoperformanceanalyzer.History"
+            android:name="com.example.autoperformanceanalyzer.gui.History"
             android:label="@string/title_activity_history" >
         </activity>
     </application>

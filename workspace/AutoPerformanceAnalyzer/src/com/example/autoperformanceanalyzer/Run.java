@@ -1,5 +1,6 @@
 package com.example.autoperformanceanalyzer;
 
+import com.example.autoperformanceanalyzer.R;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.os.Build;

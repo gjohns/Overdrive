@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 
+import com.example.autoperformanceanalyzer.gui.DisplayModeActivity;
+import com.example.autoperformanceanalyzer.gui.History;
+
 public class MainActivity extends Activity {
 	public final static String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
     @Override
