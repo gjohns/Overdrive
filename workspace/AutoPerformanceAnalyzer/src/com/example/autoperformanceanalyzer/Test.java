@@ -22,6 +22,7 @@ public class Test extends Activity {
 	}
 	public void returnHistory(View view) {
         // Do something in response to button
+		// Test comment
     	Intent intent = new Intent(this, History.class);
     	//EditText editText = (EditText) findViewById(R.id.History);
     	//String message = editText.getText().toString();
