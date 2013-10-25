@@ -11,10 +11,6 @@ gen/
 # Java class files
 *.class
 
-# Eclipse project files
-.classpath
-.project
-
 # built application files
 *.apk
 *.ap_
